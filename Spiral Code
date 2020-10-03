@@ -1,0 +1,16 @@
+import turtle
+
+def main():
+
+    ty = turtle.Turtle()
+    ty.color("orange")
+    ty.speed(100)
+
+    side = 5
+    angle = 90
+
+    for count in range(300):
+        ty.forward(side + count * 2)
+        ty.left(angle)
+
+main()
